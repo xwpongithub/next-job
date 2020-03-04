@@ -20,7 +20,7 @@ public class WebConfiguration implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(auditInterceptor).excludePathPatterns("/login");
+        registry.addInterceptor(auditInterceptor).excludePathPatterns("/login","/favicon","/log/**");
     }
 
     @Override
