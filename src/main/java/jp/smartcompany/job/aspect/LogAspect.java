@@ -71,6 +71,7 @@ public class LogAspect {
           break;
         }
       }
+      assert request != null;
       if (StrUtil.equalsIgnoreCase(request.getMethod(),"get")) {
         String argName = argNames[i];
         paramMaps.put(argName,arg);

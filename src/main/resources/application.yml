@@ -64,7 +64,6 @@ spring:
         allowMultiQueries: true
         autoReconnect: true
         useLegacyDatetimeCode: true
-      connection-test-query: SELECT 1 FROM DUAL
   http:
     encoding:
       charset: utf-8
