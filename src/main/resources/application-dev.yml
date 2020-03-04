@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    cache: off
+  datasource:
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: thin
+    password: thin
+    driver-class-name: oracle.jdbc.OracleDriver
