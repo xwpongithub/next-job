@@ -14,6 +14,7 @@ public interface CoreBean {
 
     interface Service {
       String LOG = "logService";
+
     }
 
     interface Controller {
